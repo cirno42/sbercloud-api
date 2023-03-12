@@ -1,13 +1,13 @@
 package dumpModels
 
 import (
-	"sbercloud-api/api/models/ecsModels"
-	"sbercloud-api/api/models/eipModels"
-	"sbercloud-api/api/models/evsModels"
-	"sbercloud-api/api/models/natModels"
-	"sbercloud-api/api/models/securityGroupModels"
-	"sbercloud-api/api/models/subnetModels"
-	"sbercloud-api/api/models/vpcModels"
+	"github.com/cirno42/sbercloud-api/api/models/ecsModels"
+	"github.com/cirno42/sbercloud-api/api/models/eipModels"
+	"github.com/cirno42/sbercloud-api/api/models/evsModels"
+	"github.com/cirno42/sbercloud-api/api/models/natModels"
+	"github.com/cirno42/sbercloud-api/api/models/securityGroupModels"
+	"github.com/cirno42/sbercloud-api/api/models/subnetModels"
+	"github.com/cirno42/sbercloud-api/api/models/vpcModels"
 )
 
 type DumpModel struct {

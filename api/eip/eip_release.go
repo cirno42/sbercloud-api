@@ -3,8 +3,8 @@ package eip
 import (
 	"errors"
 	"fmt"
-	"sbercloud-api/api/endpoints"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/api/endpoints"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 )
 
 func DeletePublicIP(projectID, publicIpID string) error {

@@ -3,9 +3,9 @@ package subnets
 import (
 	"errors"
 	"fmt"
-	"sbercloud-api/api/endpoints"
-	"sbercloud-api/api/models/subnetModels"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/api/endpoints"
+	"github.com/cirno42/sbercloud-api/api/models/subnetModels"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 )
 
 type subnetQueryingResponse struct {

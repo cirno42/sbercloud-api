@@ -2,9 +2,9 @@ package subnets
 
 import (
 	"fmt"
-	"sbercloud-api/api/endpoints"
-	"sbercloud-api/api/nat"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/api/endpoints"
+	"github.com/cirno42/sbercloud-api/api/nat"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 )
 
 func DeleteSubnet(projectID, vpcID, subnetID string) error {

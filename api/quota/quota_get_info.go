@@ -2,10 +2,10 @@ package quota
 
 import (
 	"fmt"
-	"sbercloud-api/api/ecs"
-	"sbercloud-api/api/endpoints"
-	"sbercloud-api/api/models/quotaModels"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/api/ecs"
+	"github.com/cirno42/sbercloud-api/api/endpoints"
+	"github.com/cirno42/sbercloud-api/api/models/quotaModels"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 	"strconv"
 )
 

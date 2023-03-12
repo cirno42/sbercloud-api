@@ -5,12 +5,12 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
+	"github.com/cirno42/sbercloud-api/api/auth/authKeys"
+	"github.com/cirno42/sbercloud-api/api/auth/core"
 	"io"
 	"io/ioutil"
 	"net/http"
 	"os"
-	"sbercloud-api/api/auth/authKeys"
-	"sbercloud-api/api/auth/core"
 )
 
 type httpMethodType int

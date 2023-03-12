@@ -2,9 +2,9 @@ package evs
 
 import (
 	"fmt"
-	"sbercloud-api/api/endpoints"
-	"sbercloud-api/api/models/evsModels"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/api/endpoints"
+	"github.com/cirno42/sbercloud-api/api/models/evsModels"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 )
 
 type volumeRequest struct {

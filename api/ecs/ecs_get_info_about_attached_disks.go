@@ -2,9 +2,9 @@ package ecs
 
 import (
 	"fmt"
-	"sbercloud-api/api/endpoints"
-	"sbercloud-api/api/models/ecsModels"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/api/endpoints"
+	"github.com/cirno42/sbercloud-api/api/models/ecsModels"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 )
 
 type VolumeInfoResponse struct {

@@ -1,7 +1,7 @@
 package vpcUtils
 
 import (
-	"sbercloud-api/api/vpcs"
+	"github.com/cirno42/sbercloud-api/api/vpcs"
 )
 
 func GetVpcId(id, name, projectID string) (string, error) {

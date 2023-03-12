@@ -2,7 +2,7 @@ package ecsUtils
 
 import (
 	"errors"
-	"sbercloud-api/api/ecs"
+	"github.com/cirno42/sbercloud-api/api/ecs"
 )
 
 func GetEcsId(projectID, id, name string) (string, error) {

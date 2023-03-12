@@ -2,13 +2,13 @@ package eip
 
 import (
 	"fmt"
-	"sbercloud-api/api/ecs"
-	"sbercloud-api/api/endpoints"
-	"sbercloud-api/api/iam"
-	"sbercloud-api/api/models/eipModels"
-	"sbercloud-api/api/models/iamModels"
-	"sbercloud-api/api/nat"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/api/ecs"
+	"github.com/cirno42/sbercloud-api/api/endpoints"
+	"github.com/cirno42/sbercloud-api/api/iam"
+	"github.com/cirno42/sbercloud-api/api/models/eipModels"
+	"github.com/cirno42/sbercloud-api/api/models/iamModels"
+	"github.com/cirno42/sbercloud-api/api/nat"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 	"sync"
 )
 

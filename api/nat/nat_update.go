@@ -2,9 +2,9 @@ package nat
 
 import (
 	"fmt"
-	"sbercloud-api/api/endpoints"
-	"sbercloud-api/api/models/natModels"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/api/endpoints"
+	"github.com/cirno42/sbercloud-api/api/models/natModels"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 )
 
 func UpdateNAT(projectID, natId, name, desc, spec string) (*natModels.NatModel, error) {

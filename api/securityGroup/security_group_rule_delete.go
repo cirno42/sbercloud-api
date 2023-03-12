@@ -2,8 +2,8 @@ package securityGroup
 
 import (
 	"fmt"
-	"sbercloud-api/api/endpoints"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/api/endpoints"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 )
 
 func DeleteSecurityGroupRule(projectID, securityGroupRuleID string) error {

@@ -2,7 +2,7 @@ package ecs
 
 import (
 	"fmt"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 )
 
 type nicRequest struct {

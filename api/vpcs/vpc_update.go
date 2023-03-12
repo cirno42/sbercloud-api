@@ -2,9 +2,9 @@ package vpcs
 
 import (
 	"fmt"
-	"sbercloud-api/api/endpoints"
-	"sbercloud-api/api/models/vpcModels"
-	"sbercloud-api/internal/handlers/requestMakers"
+	"github.com/cirno42/sbercloud-api/api/endpoints"
+	"github.com/cirno42/sbercloud-api/api/models/vpcModels"
+	"github.com/cirno42/sbercloud-api/internal/handlers/requestMakers"
 )
 
 func UpdateVpc(projectID, id, name, description, cidr string) (*vpcModels.VpcEntity, error) {
