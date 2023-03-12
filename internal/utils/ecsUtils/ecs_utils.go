@@ -9,7 +9,7 @@ func GetEcsId(projectID, id, name string) (string, error) {
 	if id != "" {
 		return id, nil
 	} else {
-		servers, err := ecs.GetECSList(projectID, 0, 1000)
+		servers, err := ecs.GetECSList(projectID, 0, 1000, "")
 		if err != nil {
 			return "", err
 		}
