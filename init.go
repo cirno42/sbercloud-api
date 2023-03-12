@@ -1,4 +1,4 @@
-package main
+package sbercloud_api
 
 import "os"
 
