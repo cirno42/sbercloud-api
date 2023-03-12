@@ -1,1 +1,1 @@
-# sbercloud-api
+# github.com/cirno42/sbercloud-api
